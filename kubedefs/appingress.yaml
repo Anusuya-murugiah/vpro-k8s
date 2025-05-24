@@ -13,7 +13,8 @@ spec:
       - path: /
         pathType: prefix
         backend: 
-          service: vproapp
-          port:
-            number: 8080
+          service: 
+            name: vproapp
+            port:
+              number: 8080
             
